@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Vera Ezequias">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.css" type="text/css" media="all" />
+  <title>Html document</title>
+</head>
+<body>
+  <header>
+    <span id="tittle-page">PRACTICE PAGE</span>
+  </header>
+
+  <main>
+    <h1 id="tittle-1">Como hacer una pagina con html de forma basica</h1>
+    <div id="how-start">
+      <h4>Como empezar:</h4>
+      <p class="p-howstart">
+        Para empezar hay que conocer las etiquetas <acronym title="etiqueta de parrafo" class="acronyms">&lt;p&gt;</acronym>, 
+        de <acronym title="etiquetas de titulos (h)" class="acronyms">heading</acronym>
+        y listo eso seria lo mas basico para programar una pagina.
+      </p>
+      <p class="p-howstart">
+        Ya con estas etiquetas podemos hacer una pagina, en la que usaremos las de heading para
+        hacer un titulo, y &lt;p&gt; para los parrafos a escribir. Tal y como se puede
+        ver aqui mismo.
+      </p>
+      <p class="p-howstart">
+        Ya despues podremos ver cosas como los <a href="#buttons-link" title="Para ir mas abajo" id="boton-anchor"><strong>botones</strong></a> y darle una forma con <strong>CSS</strong>.
+      </p>
+    </div>
+   <div id="all-main"> 
+    <div id="others-etiquetas">
+      <span>Desde aqui ya se puede ir viendo otras etiquetas:</span>
+      <ul>
+        <li>
+          &lt;em&gt; : Para darle enfasis, lo pone en <em>Cursiva</em>.
+        </li>
+        <li>
+          &lt;strong&gt; : Para poner en <strong>Negrita</strong>.
+        </li>
+        <li>
+          &lt;br&gt; : Da un salto entre lineas muy explicito.
+        </li>
+        <li>
+          &lt;pre&gt; : <pre>Respeta los espacios en blanco    que dejes. </pre>
+        </li>
+      </ul>
+      <p>
+        Y esas serian algunas mas que puedes aprender despues. Todas estas se usan sobre el texto del
+        documento.
+      </p>
+    </div>
+    
+    <div id="button-lern">
+      <a name="buttons-link"><span>Mas adelante puedes aprender a hacer botones, listas y tablas.</span></a><br>
+      <br>
+      <button id="okey-button">
+        Okey
+      </button>
+      <blockquote>
+        <em>Al boton podremos, mediante JS, darle una funcionalidad.</em>
+      </blockquote>
+    </div>
+    <div>
+      <h3>Tipos de lista</h3>
+      <p>
+        Existen tres tipos de listas:
+        <ul>
+          <li>
+            Unordered lists
+          </li>
+          <li>
+            Ordered lists
+          </li>
+          <li>
+            Definition lists    
+          </li>
+        </ul>
+      </p>
+      <h4>Unordered lists:</h4>
+      <p>
+        Las listas desornenadas, son estas que tienen un maracdor X en cada elemento.
+        Y son asi:
+        <ul class="ul">
+          <li>
+            Elemento de lista desornenada.
+          </li>
+          <li>
+            Elemento de lista desornenada.
+          </li>
+        </ul>
+      </p>
+      <h4>Ordered lists</h4>
+      <p>
+        Las listas ordenadas tienen un maracdor que muestra un cierto orden en cada elemento:
+        <ol class="ol">
+          <li>
+            Primer elemento
+          </li>
+          <li>
+            Segundo elemento
+            <ol class="sub-ol" start="3">
+              <li>
+                Subelemento 1
+              </li>
+              <li>
+                Subelemento 2
+              </li>
+            </ol>
+          </li>
+          <li value="4">
+            Tercer elemento
+          </li>
+        </ol>
+        <h4>Definition lists</h4>
+        <p>
+          Son para dar una definicion a un elemento:
+          <dl>
+            <dt>HTML</dt>
+            <dd>Explicacion del elemento HTML</dd>
+            <dt>HTTP</dt>
+            <dd>Explicacion del elemento HTTP</dd>
+          </dl>
+        </p>
+    </div>
+    <div>
+      <span>Te a servido?</span>
+      <br>
+      <button id="yes-buton" class="last-butons">YES</button>
+      <button id="no-buton" class="last-butons">NOPE</button>
+    </div>
+    <br>
+    <br>
+    <div id="frutilla">
+      <a href="./Frutilla.html" title="Frutilla"><h6 id="other-frutilla">Otro proyecto aca</h6></a>      
+    </div>
+   </div> 
+  </main>
+
+  <footer>
+    <div id="footer-div" class="footer-divs">
+      <ul id="elements-creator">
+        <li class="footer-element">
+          <a href="/index.html" class="footer-links">Home</a>      
+        </li>
+        <li class="footer-element">
+          <a href="https://www.youtube.com/channel/UCvZq1zra3M30vgK_ZrcSVCg?view_as=subscriber" class="footer-links">Youtube Channel</a>
+        </li>
+      </ul>
+    </div>
+    <div id="footer-div1" class="footer-divs">
+      <p id="copyright">
+        <strong>Copyright @Vereze 2020</strong>
+      </p>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

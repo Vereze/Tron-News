@@ -1,0 +1,332 @@
+body {
+    background: rgba(228, 165, 165, 0.667);
+    margin: 0 0;
+    border: 2px solid transparent;
+}
+
+hr {
+    width: 84%;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    margin: 0;
+    padding: 16px 10px 0;
+}
+
+main {
+    margin: 0 12px;
+    min-height: calc(100vh - 67px - 68px);
+    border: 1px solid transparent;
+}
+
+footer {
+    width: 100%;
+}
+/* MENU BUTON */
+.menu-buton a {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.877);
+    border-radius: 10px;
+    border: orangered solid 2px;
+    padding: 3px 6px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    display: none;
+}
+
+/* NAVEGATION */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.navigation img, ul {
+    margin: 0 auto;
+    margin-left: 30px;
+}
+
+/* IMAGE */
+
+.navigation img {
+    width: 35px;
+    margin: 0;
+    position: relative;
+    top: 2px;
+    left: 25px;
+    border-radius: 17px;
+    box-sizing: border-box;
+}
+
+.main-icon:hover {
+    opacity: 0.8;
+}
+
+/* NAV RIGHT */
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    margin-left: 0 auto 0 50px;
+}
+
+.navigation ul li {
+    margin: 0 20px;
+    height: 25px;
+    box-sizing: border-box;
+    padding: 1px;
+}
+
+.navigation ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.nav__li--home:hover{
+    border-bottom: 4px solid rgb(27, 148, 98);
+}
+
+.nav__li--news:hover{
+    border-bottom: 4px solid rgb(170, 159, 6);
+}
+
+.nav__li--wallpaper:hover{
+    border-bottom: 4px solid rgb(124, 22, 4);
+}
+
+.nav__li--books:hover{
+    border-bottom: 4px solid purple;
+}
+
+.nav__li--images:hover{
+    border-bottom: 4px solid rgb(6, 8, 121);
+}
+
+/*=============*/
+hr{
+    margin: 8px 20px 0 30px;
+}
+/* MAIN TITLE */
+
+main h2 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    margin: 0 auto 40px;
+}
+
+/* BANDERA */
+
+.bandera {
+    display: flex;
+    justify-content: center;
+}
+
+.bandera p {
+    width: 55px;
+    height: 65px;
+}
+
+.block1, .block3 {
+    background-color: aquamarine;
+}
+
+.block2 {
+    background-color: white;
+}
+
+/* ======MAIN CONTENT====== */
+
+.art-title {
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: cornsilk;
+}
+
+.content {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    background: url(./img/wallpaper-de-madera-oscura-pixsic.jpg) no-repeat center  center/cover;
+    padding-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: 6px 5px 10px 3px rgba(0, 0, 0, 0.747);
+}
+
+.content p {
+    color: white;
+}
+
+.more-btn {
+    color: rgb(12, 121, 121);
+    text-decoration: none;
+    font-weight: 550;
+    border: 2px solid rgb(12, 121, 121);
+    background-color: rgb(14, 13, 13);
+    padding: 5px 5px;
+}
+
+.more-btn:hover {
+    padding: 8px 9px;
+}
+
+/*======= CARDS ======*/
+
+.cards {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    text-align: center;
+}
+
+.card {
+    height: fit-content;
+    background-color: rgba(34, 34, 33, 0.733);
+    border: 2px solid black;
+    border-radius: 20px 10px;
+    box-shadow: 4px 5px 15px 1px rgba(0, 0, 0, 0.75);
+}
+
+.card:hover{
+    transform: translateY(5px);
+}
+
+.card img {
+    width: 100%;
+    height: 190px;
+    margin: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+}
+
+.cardT{
+    color: rgb(169, 50, 206);
+    margin: 6px auto;
+}
+
+.card p {
+    line-height: 1.36;
+    font-weight: 400;
+    margin: 0 0 8px;
+    color: cornsilk;
+}
+
+.card a {
+    padding: 4px 7px;
+    color: rgb(207, 137, 6);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 14px;
+    border: 1px solid rgb(207, 137, 6);
+    background-color: black;
+}
+
+.card a:hover{
+    text-decoration: underline;
+    padding: 6px 7px;
+    opacity: 0.9;
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: 10px;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.918);
+
+}
+
+.credits ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    opacity: 0.7;
+}
+
+.credits ul li {
+    margin: auto auto;
+    padding: 5px 9px;
+}
+
+/* CambiosPorTamaño */
+
+/* width 627px */
+@media(max-width : 626px) {
+    .navigation ul {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(128, 0, 128, 0.795);
+        height: 100%;
+        opacity: 1;
+        transform: translateX(-200px);
+        padding: 1px 10px 0 15px;   
+        transition: transform .9s ease-in-out;     
+    }    
+
+    .navigation ul.nav.show {
+        transform: translateX(-35px);
+    }
+
+    .navigation ul li {
+        margin: 20px 2px 0 21px;
+    }
+
+    .navigation ul li a:hover {
+        border-bottom: 3px solid whitesmoke;
+    }
+
+    .menu-buton a {
+        display: inherit;
+    }
+}
+
+/* width 500px */
+@media (max-width: 500px) {
+
+    .card img {
+        height: 160px;
+    }
+
+    .cards{
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+   
+
+}
+
+/* width 300px */
+@media (max-width: 300px) {
+
+    .card img {
+        height: 100px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

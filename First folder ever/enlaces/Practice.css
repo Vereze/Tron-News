@@ -1,0 +1,186 @@
+body {
+    background-color: grey;
+    margin: 0%;
+    font-weight: bolder;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 4px;
+    padding-top: 7px;
+}
+
+#tittle-page {
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#tittle-1 {
+    font-family: sans-serif;
+    margin-top: 0px;
+    text-align: center;
+}
+
+main {
+    background-image: url(/img/hombre-caminando-hacia-un-portal-ilustracion_3840x2160_xtrafondos.com.jpg);
+    background-position: left top;
+    clip: rect(3px 4px 7px 8px);
+    margin-left: 0%;
+    height: auto;
+    width: 100%;
+    padding-top: 0px;
+}
+
+#how-start {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.p-howstart > a {
+    text-decoration: none;
+    color: blue;
+}
+
+#boton-anchor {
+    color: white;
+}
+
+#boton-anchor:hover{
+    font-size: 19px;
+}
+
+.acronyms {
+    text-decoration: underline;
+}
+
+.ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+.sub-ol {
+    list-style-type: lower-latin;
+}
+
+#all-main {
+    margin-left: 10px;
+}
+
+#others-etiquetas {
+    margin-left: 13px;
+}
+
+#yes-buton {
+    background-color: rgb(163, 147, 231);
+    font-family: fantasy;
+    position: relative;
+    top: 2px;
+    left: 4px;
+}
+
+#yes-buton:hover{
+    width: 50px;
+    height: 20px;
+}
+
+#no-buton {
+    background-color: rgb(223, 78, 78);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: 2px;
+    left: 20px;
+}
+
+#no-buton:hover{
+    width: 50px;
+    height: 20px;
+}
+
+#frutilla > a{
+    font-size: 25px;
+    text-decoration: none;
+    width: 100px;
+}
+
+#other-frutilla {
+    width: 140px;
+    margin: 0;
+    color: rgb(95, 40, 40);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#other-frutilla:hover{
+    font-size: 20px;
+    color: black;
+    width: auto;
+}
+
+footer {
+    height: 80px;
+    background-color: cadetblue;
+}
+
+.footer-divs {
+    float: left;
+    display: inline;
+    margin-top: 0%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#footer-div {
+    display: inline;
+    text-decoration: none;
+    position: relative;
+    left: 50px;
+}
+
+#elements-creator {
+    display: inline;
+    text-decoration: none;
+}
+
+.footer-element {
+    float: left;
+    padding: 30px;
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: rgb(14, 11, 3);
+    font-family: monospace;
+}
+
+.footer-links:hover{
+    opacity: 0.7;
+}
+
+#footer-div1 {
+    float: right;
+    padding-right: 15px;
+}
+
+#copyright {
+    font-size: 14px;
+    margin-top: 0%;
+    position: relative;
+    top: 33px;
+}
+
+
+
+
+

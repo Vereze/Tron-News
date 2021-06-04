@@ -1,0 +1,158 @@
+body {
+    background-color: 	#ffd1b3;
+    margin: 0px;
+    width: auto;
+    padding-top: 0.1px;
+}
+
+/* =======HEADER============= */
+
+header {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    background-color: #e65c00;
+    width: 100%;
+    padding-top: 0.1px;
+
+}
+
+/* =============NAV============== */
+
+#ul{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 30px;
+    margin-left: 60px;
+    margin-bottom: 0;
+    clear: both;
+}
+
+#ul li {
+    display: inline-block;
+    margin-left: 8px;
+    border-left: 1px;
+    padding: 1px 2%;
+
+}
+
+#ul li a {
+    padding-left: 5px;
+}
+
+#ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+#ul li a:hover{
+    border-left: 2px solid black;
+}
+
+/* ========MAIN TITLE============ */
+
+#title {
+    margin: 0px;
+    padding: 10px;
+    width: 80%;
+    float: left;
+}
+
+#image {
+    padding: 5px;
+    width: 150px;    
+    float: left;
+}
+
+/* =====MAIN========== */
+
+main {
+    min-height: calc(100vh - 120px - 60px);    
+    width: 75%;
+    float: left;
+}
+
+
+main div {
+    background-color: 	#ffd1b3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    margin-bottom: 40px;    
+}
+
+/* =======TABLE========== */
+ 
+.end-t table {
+    margin-left: 20%;
+    text-align: center;
+}
+
+.movie {
+    text-align: left;
+}
+
+table a {
+    color: black;
+    text-decoration: none;
+}
+
+table a:hover {
+    background-color: aquamarine;
+}
+
+.main-table {
+    width: 60%;
+    border: solid black;
+}
+
+/* =======ASIDE======== */
+
+#Aside {
+    width: 20%;
+    min-height: calc(100vh - 120px - 60px);
+    float: right;
+    margin-left: 10px;
+    border: 1px;
+    text-align: center;
+    background-color: #e65c00;
+}
+
+#Aside aside, h1, p {
+    padding: 5px;
+}
+
+#a {
+    padding-left: 5px;
+}
+
+.aside a {
+    color: red;
+    text-decoration: none;
+    padding: 3px;
+    border: solid black;
+    background-color: black;
+}
+
+.aside a:hover {
+    opacity: 0.8;
+}
+
+/* ======FOOTER======= */
+
+footer {
+    background-color: #cc5200;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    text-align: center;
+    clear: both;
+}
+
+footer h5 {
+    display: inline-block;    
+    padding: auto;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+
